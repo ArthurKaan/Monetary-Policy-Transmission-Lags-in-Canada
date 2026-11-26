@@ -1,0 +1,23 @@
+sample,variable,n_obs,adf_stat,adf_pvalue,adf_lags,kpss_stat,kpss_pvalue,kpss_lags,verdict
+Full (Levels),log_gdp,138,-1.6988,0.4318,1,2.0047,0.01,6,Non-stationary
+Full (Levels),log_cpi,138,1.1278,0.9954,9,2.0419,0.01,6,Non-stationary
+Full (Levels),log_nhpi,138,-0.7389,0.8364,1,2.0128,0.01,6,Non-stationary
+Full (Levels),overnight_rate,138,-2.4068,0.1398,4,1.1108,0.01,6,Non-stationary
+Full (Levels),log_usdcad,138,-1.704,0.4291,1,0.3867,0.0829,6,"Weak/Borderline (ADF no, KPSS yes)"
+Full (Transformed),gdp_growth,137,-13.2127,0.0,0,0.2361,0.1,4,Stationary
+Full (Transformed),cpi_inflation,137,-3.5795,0.0062,8,0.3449,0.1,4,Stationary
+Full (Transformed),nhpi_growth,137,-3.5636,0.0065,0,0.1396,0.1,6,Stationary
+Full (Transformed),overnight_rate,137,-2.4141,0.1378,4,1.075,0.01,6,Non-stationary
+Full (Transformed),d_overnight_rate,137,-6.7344,0.0,6,0.0903,0.1,3,Stationary
+Full (Transformed),fx_change,137,-9.2915,0.0,0,0.128,0.1,2,Stationary
+Pre-COVID 1992-2019 (Levels),log_gdp,112,-2.0398,0.2694,1,1.6519,0.01,6,Non-stationary
+Pre-COVID 1992-2019 (Levels),log_cpi,112,-0.757,0.8314,9,1.7054,0.01,6,Non-stationary
+Pre-COVID 1992-2019 (Levels),log_nhpi,112,-1.0921,0.7182,13,1.6435,0.01,6,Non-stationary
+Pre-COVID 1992-2019 (Levels),overnight_rate,112,-1.4966,0.5352,8,1.3896,0.01,6,Non-stationary
+Pre-COVID 1992-2019 (Levels),log_usdcad,112,-1.5466,0.5103,1,0.6098,0.0217,6,Non-stationary
+Pre-COVID 1992-2019 (Transformed),gdp_growth,111,-6.1685,0.0,0,0.4118,0.0721,4,Stationary
+Pre-COVID 1992-2019 (Transformed),cpi_inflation,111,-3.7936,0.003,8,0.0796,0.1,2,Stationary
+Pre-COVID 1992-2019 (Transformed),nhpi_growth,111,-2.2474,0.1895,10,0.2591,0.1,5,"Weak/Borderline (ADF no, KPSS yes)"
+Pre-COVID 1992-2019 (Transformed),overnight_rate,111,-2.2044,0.2047,8,1.362,0.01,6,Non-stationary
+Pre-COVID 1992-2019 (Transformed),d_overnight_rate,111,-4.4452,0.0002,7,0.0881,0.1,1,Stationary
+Pre-COVID 1992-2019 (Transformed),fx_change,111,-8.2185,0.0,0,0.1624,0.1,2,Stationary

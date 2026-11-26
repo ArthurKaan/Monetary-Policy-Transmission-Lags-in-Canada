@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Raw API downloads (re-generated via python src/fetch_data.py)
+data/raw/*.csv
+data/raw/metadata.json

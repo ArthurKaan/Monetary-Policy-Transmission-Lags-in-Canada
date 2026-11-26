@@ -1,0 +1,17 @@
+model,variable,trough_quarter,trough_response_per_100bp,sig_68_negative,sig_90_negative,peak_abs_quarter,peak_abs_response,fevd_q4_pct,fevd_q8_pct,fevd_q12_pct,fevd_q20_pct
+full_levels,log_gdp,11,-0.6313,True,False,11,-0.6313,0.08,0.71,4.7,5.82
+full_levels,log_cpi,11,-0.1272,False,False,11,-0.1272,0.23,0.15,0.35,0.47
+full_levels,log_nhpi,20,-0.4705,False,False,20,-0.4705,0.2,0.14,0.17,0.65
+full_levels,log_usdcad,1,0.2133,False,False,9,3.1374,0.19,3.74,9.28,10.52
+precovid_levels,log_gdp,9,-0.4484,True,True,9,-0.4484,1.31,2.26,6.7,8.5
+precovid_levels,log_cpi,9,-0.243,True,False,9,-0.243,3.34,3.74,7.18,9.94
+precovid_levels,log_nhpi,19,-0.9515,True,False,19,-0.9515,0.26,0.21,1.51,5.68
+precovid_levels,log_usdcad,2,0.0361,False,False,9,3.7138,0.09,5.35,11.94,15.21
+full_stationary,gdp_growth,4,-0.3105,False,False,1,0.4399,0.11,0.16,0.17,0.18
+full_stationary,cpi_inflation,9,-0.0559,False,False,4,0.2487,0.02,0.59,0.6,0.6
+full_stationary,nhpi_growth,7,-0.0717,False,False,2,0.4259,0.61,0.4,0.38,0.39
+full_stationary,fx_change,2,-1.7361,False,False,2,-1.7361,0.82,0.86,0.86,0.86
+precovid_stationary,gdp_growth,2,-0.7808,True,False,2,-0.7808,3.19,3.43,3.64,3.67
+precovid_stationary,cpi_inflation,1,-0.3773,True,False,1,-0.3773,1.06,2.06,2.34,2.35
+precovid_stationary,nhpi_growth,4,-0.1994,False,False,2,0.4177,0.51,0.56,0.56,0.56
+precovid_stationary,fx_change,2,-3.1047,True,False,2,-3.1047,2.02,2.12,2.15,2.15
